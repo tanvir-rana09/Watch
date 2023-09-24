@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    min-height: 100vh;
+    min-width: 100%;
+    
+    
+}
+.container2{
+    border: 20px solid rgb(17, 17, 17);
+    padding: 50px 35px;
+    border-radius: 50%;
+    outline: 25px solid rgb(83, 83, 83);
+    min-height: 300px;
+    min-width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(59, 59, 59);
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#seasion{
+    font-weight: bold;
+    font-size: 2rem;
+    color:gray;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 4px solid rgb(83, 83, 83);
+}
+span{
+    font-size: 1.5rem;
+}
+.time span{
+    font-size: 3.5rem;
+    font-family: 'Black Ops One', cursive;
+    border-bottom: 5px solid rgb(83, 83, 83);
+    margin: 10px 0;
+}
+.date span{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.3rem;
+    margin:  5px;
+    border-bottom: 4px solid rgb(83, 83, 83);
+    padding-bottom: 5px;
+}
+#year{
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 7px solid rgb(83, 83, 83);
+    border-radius: 7px;
+    margin-top: 15px;
+}
+@media only screen and (max-width:1000px){
+
+    .container2{
+        min-height: 200px;
+        min-width: 210px;
+        padding: 20px 15px;
+        border: 10px solid rgb(17, 17, 17);
+        outline: 15px solid rgb(83, 83, 83);
+        gap: 15px;
+    }
+    .time span{
+        font-size: 2rem;
+      
+    }
+    #year{
+        font-size: 2rem;
+        
+    }
+    .date span{
+        
+        font-size: 1rem;
+        
+    }
+    #seasion{
+        font-size: 1rem;
+    }
+}
